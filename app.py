@@ -130,24 +130,6 @@ It includes:
 """)
 
 st.title("📊 Telecom Customer Churn Dashboard")
-with st.expander("ℹ️ About this Dashboard"):
-
-    st.write("""
-This dashboard predicts customer churn using a Logistic Regression model.
-
-### Features
-
-- Customer Churn Prediction
-- Probability Score
-- Risk Level Indicator
-- Business Recommendations
-- Feature Importance
-- Interactive Analytics
-- Prediction History
-- Download Prediction Report
-
-This project demonstrates customer churn prediction using a Logistic Regression model built with Python, Scikit-learn, and Streamlit.
-""")
 
 st.markdown("""
 This interactive dashboard predicts whether a telecom customer is likely to churn
